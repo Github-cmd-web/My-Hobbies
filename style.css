@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    padding-top: 567px;
+    padding-top: 650px;
     text-align: center;
 }
 
@@ -12,14 +11,14 @@ body {
 #welcome {
     position: absolute;
     overflow: hidden;
-    color:midnightblue;
+    color: aliceblue;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background: linear-gradient(#CE93D8 0%, #4FC3F7 100%);
+    background: linear-gradient(#039BE5 0%, #00C853 100%);
     width: 100%;
-    height: 575px;
+    height: 65%;
     display: table;
 }
 
@@ -30,7 +29,7 @@ body {
     margin: 8px auto;
 }
 
-.profile{
+.image-div{
 text-align: center;
 vertical-align: middle;
 display: table-cell;
@@ -39,10 +38,8 @@ position: relative;
 
 #bio{
     text-align: center;
+    padding-bottom: 75px;
     font-size: 20px;
-    background: linear-gradient(#4FC3F7 0%, #CE93D8 100%);
-    width: 100%;
-    height: 362px;
 }
 
 p {
@@ -50,5 +47,55 @@ p {
     font-size: 20px;
     line-height: 1.3;
     margin: 25px auto;
-    color: rebeccapurple;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    border: black;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link:hover{
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color:maroon;
+}
+
+iframe{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: 250;
+    font-size: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#hobby{
+    font-style: italic;
 }
